@@ -49,3 +49,16 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.text-blue{
+    color: rgb(24, 24, 165);
+}
+
+.btn{
+    padding:4px 12px;
+    border: 2px solid white;
+    color:white;
+    background-color: rgb(91, 91, 193);
+    cursor: pointer;
+    border-radius: 6px;
+}
