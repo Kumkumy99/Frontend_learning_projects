@@ -1,45 +1,95 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Fitness Gym Landing Page</title>
     <link rel="stylesheet" href="utils.css">
     <link rel="stylesheet" href="style.css">
- </head>
- <body>
+</head>
+<body>
     <div class="container mx-auto">
         <header>
-         <nav class="flex justify-between ">
-            <div class="font-bold flex items-center text-blue">Fitness Gym</div>
-            <ul class="nav-bar flex items-center">
-               <li>Home</li>
-               <li>About</li>
-               <li>Contacts</li>
-               <li>Services</li>
-               <li><button class="btn">Join Now</button></li>
-            </ul>
-         </nav>
-         <hr>
+            <nav class="navbar flex items-center justify-between">
+                <a href="#home" class="brand">Fitness Gym</a>
+                <ul class="nav-links flex items-center">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#join" class="btn">Join Now</a></li>
+                </ul>
+            </nav>
         </header>
-        <main class="min-h-screen">
-         <section>
-            <div class="flex section1 items-center">
-               <div class="topleft px-2 flex items-center flex-col">
-                  <h1 class="my-1 ">The best fitness gym in the town is here</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente perferendis provident reprehenderit deleniti ducimus porro accusantium reiciendis. Fugiat facilis quo minima possimus repudiandae, unde pariatur!</p>
-               </div>
-               <div class="topright"></div>
-            </div>
-         </section>
-         <hr>
-         <section></section>
-         <hr>
-         <section></section>
-         <hr>
 
+        <main>
+            <section id="home" class="hero section1 flex items-center">
+                <div class="topleft">
+                    <span class="pill">Transform your body</span>
+                    <h1>The best fitness gym in town is here</h1>
+                    <p>Build strength, improve mobility, and gain confidence with expert trainers, modern equipment, and tailored fitness programs.</p>
+                    <div class="hero-actions">
+                        <a href="#join" class="btn btn-primary">Start Today</a>
+                        <a href="#services" class="btn btn-secondary">View Programs</a>
+                    </div>
+                </div>
+                <div class="topright">
+                    <img src="assets/undraw_personal-trainer_bqkg.svg" alt="Fitness trainer illustration">
+                </div>
+            </section>
+
+            <section id="about" class="info-section">
+                <div class="section-heading">
+                    <p class="subheading">Why choose us</p>
+                    <h2>Train smarter with expert coaches</h2>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <h3>Personalized Plans</h3>
+                        <p>Programs designed around your fitness level and goals.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Top Equipment</h3>
+                        <p>Train with cutting-edge tools for strength, cardio, and recovery.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Community Support</h3>
+                        <p>Stay motivated with trainers and members who push you forward.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="services" class="services-section">
+                <div class="section-heading">
+                    <p class="subheading">Our services</p>
+                    <h2>Everything you need to reach your fitness goals</h2>
+                </div>
+                <div class="service-grid">
+                    <div class="service-item">
+                        <h3>Strength Training</h3>
+                        <p>Build muscle and improve performance with guided strength sessions.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Cardio Classes</h3>
+                        <p>Burn calories and boost endurance in energizing group classes.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Yoga & Recovery</h3>
+                        <p>Improve flexibility and recovery with mindful movement sessions.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="join" class="cta-section">
+                <h2>Ready to start your fitness journey?</h2>
+                <p>Join today and book a free consultation with one of our trainers.</p>
+                <a href="#home" class="btn btn-primary">Book a Free Trial</a>
+            </section>
         </main>
-        <footer>i am footer</footer>
+
+        <footer id="contact" class="footer">
+            <p>© 2026 Fitness Gym. All rights reserved.</p>
+        </footer>
     </div>
- </body>
- </html>
+</body>
+</html>
