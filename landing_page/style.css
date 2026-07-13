@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.topleft{
+    width: 50%;
+}
+
+.topright{
+    width:50%;
+}
+
+.section1{
+    height: 50vh;
+}
